@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+#car0{
+    margin-top: 120px;
+}
+.images-tire-wheels{
+    display: -moz-inline-stack;
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;  
+}
+.images-car{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+button{
+    margin: auto;
+}
+.tyre{
+    margin-top:-110px; 
+    position: relative;    
+}
+.tyre1{
+    display: flex;
+    margin-top: -120px;     
+}
+#tire0{
+   padding-left: 150px;
+
+}
+#tire2{
+    margin-left: 190px;
+    padding-left: 170px;
+}
+#tyre0{
+    padding-left: 140px;
+ }
+ #tyre2{
+     margin-left: 345px;
+     
+ }
+ 

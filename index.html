@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tire-Purchase</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div>
+         <img src="img/car1.png" id="car0" height="300px">
+    </div>
+    <div class="tyre1">
+        <img src="img/tyre20.png" id="tyre0" height="120px">
+        <img src="img/tyre20.png" id="tyre2" height="120px">
+    </div>
+    <div class="tyre">
+    <div>
+         <img src="img/wheel1.png" id="tire0" height="100px">
+         <img src="img/wheel1.png" id="tire2" height="100px">
+     </div>
+     </div>
+        
+        <!------------------CARS---------------------->
+        <div class="images-car" id="car">
+            <button onclick="changeCar('img/car1.png')">
+                <img src="img/car1.png" id="tire1" height="30px">
+            </button>
+            <button onclick="changeCar('img/car2.png')">
+                <img src="img/car2.png" height="30px">
+            </button>
+            <button onclick="changeCar('img/car3.png')">
+                <img src="img/car3.png" height="30px">
+            </button>
+            <button onclick="changeCar('img/car4.png')">
+                <img src="img/car4.png" height="30px">
+            </button>
+            <button onclick="changeCar('img/car5.png')">
+                <img src="img/car5.png" height="30px">
+            </button>
+            <button onclick="changeCar('img/car7.png')">
+                <img src="img/car7.png" height="30px">
+            </button>
+            <button onclick="changeCar('img/car9.png')">
+                <img src="img/car9.png" height="30px">
+            </button>
+        </div>
+        <!------------------WHEELS---------------------->
+    <div class="images-tire-wheels" id="tire-wheels">
+        <button onclick="changeTire('img/wheel1.png')">
+            <img src="img/wheel1.png" id="tire1" height="60px">
+        </button>
+        <button onclick="changeTire('img/wheel2.png')">
+            <img src="img/wheel2.png" height="60px">
+        </button>
+        <button onclick="changeTire('img/wheel3.png')">
+            <img src="img/wheel3.png" height="60px">
+        </button>
+        <button onclick="changeTire('img/wheel4.png')">
+            <img src="img/wheel4.png" height="60px">
+        </button>
+        <button onclick="changeTire('img/wheel5.png')">
+            <img src="img/wheel5.png" height="60px">
+        </button>
+        <button onclick="changeTire('img/wheel6.png')">
+            <img src="img/wheel6.png" height="60px">
+        </button>
+        <button onclick="changeTire('img/wheel7.png')">
+            <img src="img/wheel7.png" height="60px">
+        </button>
+        <button onclick="changeTire('img/wheel9.png')">
+            <img src="img/wheel9.png" height="60px">
+        </button>
+    </div>
+
+    
+
+    <script>
+        function changeTire(tire) {            
+            document.getElementById("tire0").src =tire;
+            document.getElementById("tire2").src =tire;
+        }
+        function changeCar(car) {            
+            document.getElementById("car0").src =car;
+        }
+        
+    </script>
+</body>
+
+</html>
